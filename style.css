@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  .album {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .album img {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .album-info {
+    flex-grow: 1;
+  }
+  
+  .album-info h3 {
+    margin-top: 0;
+  }
+  
+  .album-info p {
+    margin-bottom: 10px;
+  }
+  
+  .album-info a {
+    color: #333;
+    background-color: #ffc107;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .album-info a:hover {
+    background-color: #ff9800;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    text-align: center;
+    margin: 0;
+    background-color: blue;
+    left: 050%;
+    right: 50%;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 16px;
+  }
+  main {
+    text-align: center;
+    background-color: #ff9800;
+  }
+  
+  section {
+    margin-bottom: 0;
+  }
+  .album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .album img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .album-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .album-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .album-info a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .album-info a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: red;
+  }
+  
